@@ -1,10 +1,20 @@
+//Author: Stefan Grosser
+//Date: 9/21/2016
+/*
+Written for CS590D Algorithms for Data Science during the Fall 2016 semester.
+Given the number of experiments, this program will run reservoir sampling
+and output the statistics for each number.
+
+It can be observed that errors of 10% occur around 20000, exhibiting near-uniform
+sampling as the experiment size increases.
+*/
+
+
 #include <iostream>
 #include <map>
 #include <cstdlib>
 #include <ctime>
 #include <fstream>
-
-
 
 using namespace std;
 
